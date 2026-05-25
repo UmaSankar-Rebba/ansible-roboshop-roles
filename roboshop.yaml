@@ -1,4 +1,4 @@
-- name: Configuring {{ component }}
-  hosts: {{ component }}
+- name: Configuring "{{ component }}"
+  hosts: "{{ component }}"
   become: yes
   tasks:
